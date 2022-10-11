@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+body{
+    margin-top: 100px;
+    background-image: fondo.jpg;
+    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    flex-wrap: wrap;
+    margin-top: -100px;
+    display: flex;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    background-color: #007553;
+    border: solid greenyellow;
+    justify-content: space-evenly;
+
+
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+    left: -1px;
+
+
+    
+
+
+    }
+    }
+   
+    }
+    .contenedor_img{
+        width: 100px;
+        height: 80px;
+    }
+     img{
+        margin-top: 5px;
+        width: 200px;
+        height: 80px;
+    }
+    aside{
+        margin-top: -80px;
+        position: fixed;
+        background-color: #007553;
+        color: white;
+        display:flex ;
+
+}
+
+.opciones{
+    margin:50px 5px;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+
+}
+.barra_lateral i:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+.opciones:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+    nav{
+        margin-left: 50px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        display: flex;
+
+        width: 100%;
+        background-color:#007553 ;
+    }
+    nav ul li ul{
+         display: none;
+ }
+ nav .ayuda li:hover > ul{
+    height: 0;
+    right: 85px;
+    background-color: #007553;
+    position: absolute;
+    display: block;
+
+    
+
+
+ }
+ 
+    
+ul li{
+    list-style: none;
+
+}
+ul li:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+
+
+.footer{
+    margin-top: 30px;
+    background: #007553;
+    display: block;
+    font-family: 'Gemunu Libre', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid greenyellow;
+    outline: solid greenyellow;
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+ summary{
+    list-style: none;
+    margin: 5px;
+}
+.parrafo{
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+ justify-content: center;
+ margin: auto;
+ position: relative;
+ right: 30px;
+ font-family: 'Gemunu Libre', sans-serif;
+ color: white;
+  font-size: 20px;
+  width: 30%;
+}
+.listas{
+    margin: 75px 20px 20px 20px;
+    width: 20%;
+    color: white;
+    font-size: 20px;
+}
+.imagen{
+    width: 20%;
+    float: left;
+    display: flex;
+    margin: 30px;
+    margin-top: 40px;
+    margin-right: 90px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    position: relative;
+    left: 20px;
+    
+}
+.textos{
+    
+    width: 50%;
+    float: left;
+    margin-right: 0;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.textos ul{
+    list-style: none;
+margin: 70px 10px 20px 60px;
+}
+.textos li{
+    margin: 10px;
+}
+.textos ul li a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+i{
+    color: white;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.textos_listas:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+.textos ul i li:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+.parrafos:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+.textos ul li a:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+summary:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
