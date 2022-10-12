@@ -1,205 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
-    margin-top: 100px;
-    background-image: url(fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: rgb(221, 221, 221);
+}
+
+header {
+    display: flex;
+    background-color: #007553;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 60px;
+}
+
+.imagen {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-flex;
 }
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-header {
-    flex-wrap: wrap;
-    margin-top: -100px;
-    display: flex;
-    color: white;
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 20px;
-    background-color: #007553;
-    justify-content: space-evenly;
-
-
-    position: fixed;
-    width: 100vw;
-    height: 90px;
-    left: -1px;
-
-
-
-
-
-}
-
-.contenedor_img {
-    width: 100px;
-    height: 80px;
-}
-
-img {
-    margin-top: 5px;
-    width: 200px;
-    height: 80px;
-}
-
-aside {
-    margin-top: -80px;
-    position: fixed;
-    background-color: #007553;
-    color: white;
-    display: flex;
-
-}
-
-.opciones {
-    margin: 50px 5px;
-    color: white;
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 20px;
-
-}
-
-.barra_lateral i:hover {
-    color: #82a1b1;
-    cursor: pointer;
-}
-
-.opciones:hover {
-    color: #82a1b1;
-    cursor: pointer;
-}
-
-nav {
-    margin-left: 50px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: #007553;
-}
-
-ul li {
-    list-style: none;
-
-}
-
-ul li:hover {
-    color: #82a1b1;
-    cursor: pointer;
-}
-
-ul li i:hover {
-    color: #82a1b1;
-    cursor: pointer;
-}
-
-
-.footer {
-    background: #007553;
-    display: block;
-    font-family: 'Gemunu Libre', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-summary {
-    list-style: none;
-    margin: 5px;
-}
-
-
-.listas {
-    margin: 0px 20px 20px 20px;
-    width: 20%;
-    color: white;
-    font-size: 20px;
-}
-
-.imagen {
-    width: 20%;
-    float: left;
-    display: flex;
-    margin-top: 0px;
-    margin-right: 90px;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 90%;
-    position: relative;
-    left: 20px;
-
-}
-
-.textos {
-
-    width: 50%;
-    float: left;
-    margin-right: 0;
-    margin-left: 50px;
-    font-size: 18px;
-}
-
-.textos ul {
-    list-style: none;
-    margin: 0px 10px 20px 60px;
-}
-
-.textos li {
-    margin: 10px;
-}
-
-.textos ul li a {
-    text-decoration: none;
-    color: white;
-    margin-top: 10px;
+    color: #fff;
 }
 
 i {
-    color: white;
-    margin-right: 10px;
-    font-size: 18px;
+    margin: 0 15px;
+    font-size: 20px;
 }
 
-.textos_listas:hover {
-    color: #82a1b1;
-    cursor: pointer;
+aside {
+    background-color: #00694b;
+    width: 260px;
+    height: 100vh;
 }
 
-.textos ul i li:hover {
-    color: #82a1b1;
-    cursor: pointer;
+aside ul li {
+    padding: 20px 0;
+    font-size: 20px;
+    color: #fff;
 }
 
-.parrafos:hover {
-    color: #82a1b1;
-    cursor: pointer;
+aside ul li i {
+    font-size: 23px;
 }
 
-.textos ul li a:hover {
-    color: #82a1b1;
-    cursor: pointer;
-}
-
-summary:hover {
-    color: #82a1b1;
-    cursor: pointer;
+.list i {
+    margin-top: 25px;
 }
