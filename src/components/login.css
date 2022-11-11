@@ -1,0 +1,102 @@
+@keyframes rotate {
+    100% {background-position: 0% 50%;}
+}
+
+.body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Poppins;
+    color: #3a334e;
+    background-image: url(./e11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.control1 {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background: #edeaf7;
+    color: #5a4f79;
+    font-family: inherit;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.control {
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background: #edeaf7;
+    color: #5a4f79;
+    font-family: inherit;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.login-card {
+    width: 400px;
+    padding: 100px 30px 64px;
+    border-radius: 1.25rem;
+    background: #343634;
+    text-align: center;
+}
+
+.login-card > h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    color: #ffffff;
+}
+
+.login-card > h3 {
+    color: #f9f9f9;
+    margin: 0 0 40px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.login-form {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.login-form input.control::placeholder {
+    color: #aaa7bc;
+}
+
+.login-form > .control1 {
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background: #1d4f45;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+}
+
+.password { position: relative; }
+
+.control1 {
+    background: #1d4f45;
+    color: #ffffff;
+}

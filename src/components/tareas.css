@@ -1,0 +1,19 @@
+.grid-container1 {
+    display: inline-grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 60px;
+}
+
+.container-body1 {
+    display: flex;
+    position: absolute;
+    top: 185px;
+    left: 330px;
+  }
+
+  .materias {
+    color: #000000;
+    position: absolute;
+    top: 105px;
+    left: 750px;
+  }
