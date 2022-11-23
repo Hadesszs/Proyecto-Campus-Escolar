@@ -9,7 +9,7 @@
     margin: 0;
     font-family: Poppins;
     color: #3a334e;
-    background-image: url(./e11.jpg);
+    background-image: url(./fondo.login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,7 +47,8 @@
 
 .login-card {
     width: 400px;
-    padding: 100px 30px 64px;
+    height: 700px;
+    padding: 70px 30px 64px;
     border-radius: 1.25rem;
     background: #343634;
     text-align: center;
@@ -99,4 +100,15 @@
 .control1 {
     background: #1d4f45;
     color: #ffffff;
+}
+
+.logo-escuela {
+    margin: auto;
+    margin-bottom: 20px;
+    background-image: url("./logo.login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 230px;
+    border-radius: 60%;
 }

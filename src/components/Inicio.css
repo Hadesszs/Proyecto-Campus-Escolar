@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+main {
+  background-color: #E8C39E;
+}
+
 .container-header {
   display: flex;
+  position: fixed;
+  z-index: 10;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -14,26 +20,29 @@
   color: #ffffff;
 }
 
-h1 {
-  padding-left: 55px;
+.titulo {
+  margin-left: 55px;
+}
+
+.titulo h1 {
   color: #ffffff;
 }
 
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 i {
   font-size: 30px;
-  padding: 0 20px;
-  margin-right: 5px;
-  margin-top: 15px;
   color: #ffffff;
 }
 
-ul li {
+.lista1 li {
   list-style: none;
   display: inline-flex;
+  margin: 0px 20px;
+  margin-top: 15px;
 }
 
 i:hover {
@@ -45,27 +54,61 @@ a:hover {
 }
 
 .container-nav {
-  display: flex;
-  position: relative;
+  display: inline-grid;
+  position: fixed;
+  top: 80px;
   width: 290px;
   height: 800px;
   background-color: #0f242f;
 }
 
 .button {
-  cursor: pointer;
   font-size: 20px;
-  text-align: center;
   width: 200px;
   margin-left: 15px;
-  margin-top: 41px;
+  margin-top: 34px;
   margin-bottom: 10px;
   padding: 12px;
+  border: 1px solid #000000;
   border-radius: 25px;
+  background-color: #E8C39E;
+  color: #000;
+
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
+    0 1px 3px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #E8C39E),
+    to(#f5d6b6)
+  );
+  background-image: linear-gradient(#c09e7c 10%, #E8C39E 100%);
 }
 
-.footer {
-  background-color: #091820;
-  width: 100;
-  height: 80px;
+.button:hover,
+.button:focus {
+  background-color: #f3d4b4;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #f0a100),
+    to(#f5d6b6)
+  );
+  background-image: linear-gradient(#f3d4b4 10%, #E8C39E 100%);
+}
+
+.button:active {
+  background-color: #f5d6b6;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(10%, #f5d6b6),
+    to(#f5d6b6)
+  );
+  background-image: linear-gradient(#f5d6b6 10%, #b4895e 100%);
 }

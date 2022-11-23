@@ -7,6 +7,8 @@ function Login() {
   return (
     <div className="body">
     <div className="login-card">
+      <div className="logo-escuela">
+      </div>
       <h2>E.E.S.T N°1</h2>
       <h3>Ingresa tus datos</h3>
       <form className="login-form">

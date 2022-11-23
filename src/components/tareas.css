@@ -1,19 +1,28 @@
 .grid-container1 {
     display: inline-grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-gap: 60px;
+    grid-template-columns: 310px 310px 310px 310px;
+    grid-gap: 21px;
+    margin-top: 160px;
+    margin-left: 340px;
 }
 
-.container-body1 {
-    display: flex;
-    position: absolute;
-    top: 185px;
-    left: 330px;
-  }
+.grid-container2 {
+  display: inline-grid;
+  grid-template-columns: 420px 420px 420px;
+  grid-gap: 21px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 340px;
+}
 
-  .materias {
-    color: #000000;
-    position: absolute;
-    top: 105px;
-    left: 750px;
-  }
+.materias {
+  position: absolute;
+  top: 100px;
+  left: 795px;
+}
+
+.talleres {
+  position: absolute;
+  top: 690px;
+  left: 930px;
+}
